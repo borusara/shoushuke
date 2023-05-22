@@ -159,7 +159,7 @@ keyboard = InlineKeyboardMarkup(
 async def start(_, message):
     if message.chat.type != enums.ChatType.PRIVATE:
         return await message.reply_photo(
-            photo="https://cdn.awwni.me/2gj9h.jpg",
+            photo="",
             caption="Pm Me For More Details.",
             reply_markup=keyboard,
         )
@@ -184,7 +184,7 @@ async def start(_, message):
             )
     else:
         await message.reply_photo(
-            photo="https://cdn.awwni.me/2gj9h.jpg",
+            photo="",
             caption=home_text_pm,
             reply_markup=home_keyboard_pm,
         )
