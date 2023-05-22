@@ -108,7 +108,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo ❤️",
-                url="https://github.com/rozari0/NezukoBot",
+                url="https://github.com/borusara/shoushuke",
             ),
         ],
         [
@@ -142,7 +142,7 @@ keyboard = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/rozari0/NezukoBot",
+                url="https://github.com/borusara/shoushuke",
             ),
         ],
         [
